@@ -41,10 +41,13 @@ Three.js / React-three-fiber / Swiper.js
 ![image](https://github.com/user-attachments/assets/f1be940a-9ce8-4eea-9b5a-8b5c46102aca)
 ![image](https://github.com/user-attachments/assets/5e2d41b5-7a31-4d14-ba3f-4d337c6b9f88)
 
-- MSE (평균 절대 오차 ) : 34.43mm
-- RMSE ( 평균 제곱근 오차 ): 62.85mm 
-- Rel(상대오차) : 5.19%
-- Delta (> 1.25) : 93.15% => 실제 값의 1.25배 안에서 93프로 정확도를 가지고 있음을 뜻함
+  - MSE (평균 절대 오차 ) : 34.43mm
+  - RMSE ( 평균 제곱근 오차 ): 62.85mm 
+  - Rel(상대오차) : 5.19%
+  - Delta (> 1.25) : 93.15% => 실제 값의 1.25배 안에서 93프로 정확도를 가지고 있음을 뜻함
+
+- 더 개발할 점
+  - RGB만으로도 깊이를 측정할 수 있도록 개발발
 
 # 주요 기능
 - 깊이 보정 : DepthAnything V2와 Orbbec Astro + 를 활용하여 Astro + 가 찍지못한 공간을 DepthAnything V2의 MDE를 활용하여 빈 값을 채우고 실측치랑 맞게 보정을 해줌
@@ -67,6 +70,10 @@ Three.js / React-three-fiber / Swiper.js
 실제 작동 사진
 ![image](https://github.com/user-attachments/assets/6b63066d-83e7-4991-92c1-e325b537250d)
 
+# 프로젝트 추가로 개발 해야 할 점
+- 사이트 초기 진입 시 로딩 속도 개선
+- 연구 목적 딥러닝 모델 적용 후 테스트
+- 실시간 스트리밍 부분 및 얼굴 등록 부분 개선
 
 # 사이트 전체 이미지
 - 메인
